@@ -1,0 +1,491 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+header {
+    position: fixed;
+    background-color: white;
+    box-shadow: 16px 16px 16px 0px rgba(38, 38, 38, 0.16);
+    width: 100%;
+    z-index: 15;
+}
+
+.container {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    max-width: 956px;
+    margin: 0 auto;
+}
+
+.logo {
+    padding-top: 20px;
+}
+
+.row-header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.enter {
+    line-height: 24px;
+    margin-right: 24px;
+    background-color: #fff;
+    border: 1px solid #E0E0E0;
+    border-radius: 2px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.enter:hover {
+    background-color: rgb(197, 197, 197);
+}
+
+.search {
+    margin-top: 110px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    align-items: center;
+    opacity: 0.7;
+    border: none;
+    width: 100%;
+}
+
+input,
+textarea {
+    outline: none;
+}
+
+input:active,
+textarea:active {
+    outline: none;
+}
+
+:focus {
+    outline: none;
+}
+
+textarea {
+    resize: none;
+}
+
+textarea {
+    resize: vertical;
+}
+
+textarea {
+    resize: horizontal;
+}
+
+.line {
+    border: 0.5px solid #757575;
+}
+
+.line__search {
+    border: 0.5px solid #757575;
+    opacity: 0.2;
+}
+
+.row {
+    display: block;
+}
+
+.restorants {
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+h1 {
+    font-weight: 500;
+}
+
+.card-title {
+    padding-left: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.card-title a {
+    text-decoration: none;
+    color: black;
+}
+
+.category {
+    padding-left: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    align-items: center;
+    color: #626262;
+}
+
+.time_rest {
+    padding-left: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    align-items: center;
+    color: #1D1D1D;
+}
+
+.card {
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+}
+
+.card figure {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+
+.card figure img {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    margin-top: 60px;
+    padding-top: 70px;
+    background: #262626;
+}
+
+.footer__row {
+    padding-bottom: 20px;
+}
+
+.footer__logo {
+    padding-bottom: 20px;
+}
+
+.lang-bar {
+    margin: 30px auto;
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 5px 15px 5px 15px;
+    background: #3B3B3B;
+    border-radius: 2px;
+}
+
+.language {
+    background-color: #3B3B3B;
+    border: 0;
+    font-size: 18px;
+    line-height: 15px;
+    padding: 5px 60px 5px 20px;
+    color: white;
+}
+
+.choice-lang {
+    background: url("img/world.svg") 0;
+    padding-left: 20px;
+    background-repeat: no-repeat;
+}
+
+.uber-eats {
+    color: green;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.hashtag {
+    padding-top: 15px;
+    color: white;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.social {
+    padding-top: 20px;
+}
+
+.link-footer {
+    padding-top: 20px;
+    list-style: none;
+}
+
+.link-footer a {
+    display: flex;
+    color: white;
+    padding-top: 20px;
+    font-size: 16px;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
+.link-footer a:last-child {
+    margin-bottom: 0;
+}
+
+.google-apple {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.google-play {
+    padding: 20px 0px;
+}
+
+.apple-store {
+    padding: 20px 0px;
+}
+
+.users-link {
+    padding-top: 16px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.users-link a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding-top: 24px;
+}
+
+.buttonup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    background-color: #59BD5A;
+    bottom: 24px;
+    right: 16px;
+}
+
+@media screen and (max-width: 766px) {
+    .buttonup {
+        width: 64px;
+        height: 64px;
+    }
+}
+
+
+/* Страница ресторана Пушкин */
+
+.main-header {
+    padding-top: 180px;
+    padding-bottom: 180px;
+    background: url("img/pushkin/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-header-restorants {
+    padding-top: 25px;
+    padding-bottom: 50px;
+    background-color: white;
+    text-align: center;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.info-restaurant {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info-restaurant button {
+    background: #262626;
+    border-radius: 16px;
+    color: white;
+    padding: 8px 15px 8px 15px;
+}
+
+.name-restaurant {
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.nav-menu {
+    background-color: white;
+    display: inline-flex;
+}
+
+.nav-menu a {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+    color: #626262;
+    padding-right: 40px;
+}
+
+.nav-menu a:last-child {
+    padding-right: 0px;
+}
+
+.nav-menu a:active {
+    color: #327430;
+}
+
+.nav-menu__active {
+    color: #327430;
+}
+
+.card-restaurant {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 16px;
+    border: 1px solid rgb(212, 212, 212);
+    margin-bottom: 50px;
+}
+
+.card-restaurant:hover {
+    background-color: #f1f1f1;
+}
+
+.card-restaurant:hover .product-item-2 {
+    opacity: 1;
+    padding-top: 10px;
+    font-size: 13px;
+    color: #626262;
+}
+
+.card-restaurant figure {
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    line-height: 0;
+}
+
+.card-item-1 {
+    color: #626262;
+    letter-spacing: 0.4px;
+}
+
+.card-item-2 {
+    background-color: black;
+    color: white;
+    border-radius: 24px;
+    padding: 8px 16px 8px 16px;
+}
+
+.description-product {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 16px;
+}
+
+.product-item-1 {
+    font-size: 16px;
+}
+
+.product-item-2 {
+    opacity: 0;
+    padding-top: 10px;
+    font-size: 13px;
+}
+
+@media (hover: hover) {
+    .product-item-2:hover {
+        opacity: 1;
+        padding-top: 10px;
+        font-size: 13px;
+    }
+}
+
+.products h1 {
+    padding-top: 55px;
+    padding-bottom: 32px;
+    position: relative;
+}
+
+.price {
+    padding-bottom: 30px;
+}
+
+@media screen and (max-width: 766px) {
+    .nav-menu {
+        display: none;
+    }
+    .card-restaurant {
+        border: 0;
+        border-bottom: 1px solid rgb(212, 212, 212);
+    }
+    .products h1 {
+        text-align: center;
+        border-bottom: 1px;
+    }
+    .products h1:after {
+        content: '';
+        display: block;
+        width: 50px;
+        height: 1px;
+        background-color: #757575;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 15px;
+    }
+    .main-header {
+        height: 100px;
+        background: url("/img/pushkin/banner-mob.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .block-restaurant {
+        position: absolute;
+        width: 100%;
+        bottom: 305px;
+        z-index: 1;
+    }
+    .main-header-restorants {
+        padding-bottom: 20px;
+        z-index: 10;
+    }
+    .info-restaurant {
+        flex-direction: column;
+    }
+    .card-item-2 {
+        margin-top: 16px;
+    }
+    .product-item-1 {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -moz-box;
+        -moz-box-orient: vertical;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        line-clamp: 1;
+        box-orient: vertical;
+    }
+}
